@@ -3,19 +3,10 @@
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
-local LogIn = Instance.new("Frame")
-local Bar1 = Instance.new("Frame")
-local BarLine1 = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local UICorner2 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local UICorner1 = Instance.new("UICorner")
-local Login = Instance.new("TextButton")
 local Main = Instance.new("Frame")
 local Bar2 = Instance.new("Frame")
 local BarLine2 = Instance.new("Frame")
-local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 local UICorner4 = Instance.new("UICorner")
 local UICorner3 = Instance.new("UICorner")
 local Clr = Instance.new("TextButton")
@@ -30,73 +21,11 @@ local FC = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-LogIn.Name = "LogIn"
-LogIn.Parent = ScreenGui
-LogIn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LogIn.Position = UDim2.new(0.192307696, 0, 0.231683165, 0)
-LogIn.Size = UDim2.new(0.638111889, 0, 0.451485157, 0)
-
-Bar1.Name = "Bar 1"
-Bar1.Parent = LogIn
-Bar1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Bar1.Size = UDim2.new(0, 365, 0, 50)
-
-BarLine1.Name = "Bar Line 1"
-BarLine1.Parent = Bar1
-BarLine1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BarLine1.BorderSizePixel = 0
-BarLine1.Position = UDim2.new(0, 0, 0.699999988, 0)
-BarLine1.Size = UDim2.new(1, 0, 0.300000012, 0)
-
-TextLabel.Parent = Bar1
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Size = UDim2.new(0, 361, 0, 50)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "//RoHub - V2 Beta\\\\"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-UICorner2.CornerRadius = UDim.new(0.300000012, 0)
-UICorner2.Name = "UICorner 2"
-UICorner2.Parent = Bar1
-
-TextLabel_2.Parent = LogIn
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.0054794522, 0, 0.22807017, 0)
-TextLabel_2.Size = UDim2.new(0, 363, 0, 111)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Hi! welcome to RoHub version 2, hope you gonna like it "
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-UICorner1.CornerRadius = UDim.new(0.100000001, 0)
-UICorner1.Name = "UICorner 1"
-UICorner1.Parent = LogIn
-
-Login.Name = "Log in"
-Login.Parent = LogIn
-Login.BackgroundColor3 = Color3.fromRGB(191, 87, 255)
-Login.BorderSizePixel = 0
-Login.Position = UDim2.new(0.232876718, 0, 0.714912295, 0)
-Login.Size = UDim2.new(0, 183, 0, 38)
-Login.Font = Enum.Font.ArialBold
-Login.Text = "Log In"
-Login.TextSize = 18.000
-
 Main.Name = "Main"
-Main.Parent = ScreenGui
+Main.Parent = game.StarterGui.ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.Position = UDim2.new(0.192307696, 0, 0.231683165, 0)
-Main.Size = UDim2.new(0.638111889, 0, 0.451485157, 0)
+Main.Position = UDim2.new(0.192307681, 0, 0.231683165, 0)
+Main.Size = UDim2.new(0.267687291, 0, 0.451485157, 0)
 Main.Visible = false
 
 Bar2.Name = "Bar 2"
@@ -111,17 +40,17 @@ BarLine2.BorderSizePixel = 0
 BarLine2.Position = UDim2.new(0, 0, 0.699999988, 0)
 BarLine2.Size = UDim2.new(1, 0, 0.300000012, 0)
 
-TextLabel_3.Parent = Bar2
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.0054794522, 0, 0.0199999996, 0)
-TextLabel_3.Size = UDim2.new(0, 307, 0, 50)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "//RoHub - V2 Beta\\\\"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+TextLabel.Parent = Bar2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0054794522, 0, 0.0199999996, 0)
+TextLabel.Size = UDim2.new(0, 307, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "//RoHub - V2 Beta\\\\"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
 UICorner4.CornerRadius = UDim.new(0.300000012, 0)
 UICorner4.Name = "UICorner 4"
@@ -245,69 +174,7 @@ FC.TextWrapped = true
 
 -- Scripts:
 
-local function JDNCB_fake_script() -- LogIn.DraggableGUI 
-	local script = Instance.new('LocalScript', LogIn)
-
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			if gui.Visible then
-				update(input)
-			end
-		end
-	end)
-end
-coroutine.wrap(JDNCB_fake_script)()
-local function XZXKX_fake_script() -- Login.Script 
-	local script = Instance.new('Script', Login)
-
-	LogIn = script.Parent.Parent.Parent.LogIn
-	Main = script.Parent.Parent.Parent.Main
-	
-	
-	script.Parent.MouseButton1Down:connect(function()
-		
-		LogIn.Visible = false
-		Main.Visible = true
-		
-		
-	end)
-end
-coroutine.wrap(XZXKX_fake_script)()
-local function EWLYA_fake_script() -- Main.DraggableGUI 
+local function OXCX_fake_script() -- Main.DraggableGUI 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -352,8 +219,8 @@ local function EWLYA_fake_script() -- Main.DraggableGUI
 		end
 	end)
 end
-coroutine.wrap(EWLYA_fake_script)()
-local function FMUFKSX_fake_script() -- Clr.2 
+coroutine.wrap(OXCX_fake_script)()
+local function KUZPW_fake_script() -- Clr.2 
 	local script = Instance.new('LocalScript', Clr)
 
 	function OnClicked() 
@@ -760,8 +627,8 @@ local function FMUFKSX_fake_script() -- Clr.2
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(FMUFKSX_fake_script)()
-local function WTOEIVE_fake_script() -- Executor.5 
+coroutine.wrap(KUZPW_fake_script)()
+local function AWAMP_fake_script() -- Executor.5 
 	local script = Instance.new('LocalScript', Executor)
 
 	function OnClicked() 
@@ -942,8 +809,8 @@ local function WTOEIVE_fake_script() -- Executor.5
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(WTOEIVE_fake_script)()
-local function HSVLHJF_fake_script() -- Explorer.4 
+coroutine.wrap(AWAMP_fake_script)()
+local function KQIQVQI_fake_script() -- Explorer.4 
 	local script = Instance.new('LocalScript', Explorer)
 
 	function OnClicked() 
@@ -952,8 +819,8 @@ local function HSVLHJF_fake_script() -- Explorer.4
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(HSVLHJF_fake_script)()
-local function UMBE_fake_script() -- InfYield.3 
+coroutine.wrap(KQIQVQI_fake_script)()
+local function TNQGB_fake_script() -- InfYield.3 
 	local script = Instance.new('LocalScript', InfYield)
 
 	function OnClicked() 
@@ -962,8 +829,8 @@ local function UMBE_fake_script() -- InfYield.3
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(UMBE_fake_script)()
-local function TWFLJYP_fake_script() -- Pineapplehub.6 
+coroutine.wrap(TNQGB_fake_script)()
+local function ZHCP_fake_script() -- Pineapplehub.6 
 	local script = Instance.new('LocalScript', Pineapplehub)
 
 	function OnClicked() 
@@ -972,8 +839,8 @@ local function TWFLJYP_fake_script() -- Pineapplehub.6
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(TWFLJYP_fake_script)()
-local function NCEAIGW_fake_script() -- CarFE.1 
+coroutine.wrap(ZHCP_fake_script)()
+local function YMENNA_fake_script() -- CarFE.1 
 	local script = Instance.new('LocalScript', CarFE)
 
 	function OnClicked() 
@@ -982,16 +849,16 @@ local function NCEAIGW_fake_script() -- CarFE.1
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(NCEAIGW_fake_script)()
-local function KRAQYFX_fake_script() -- Close.CloseGuiButtonScript 
+coroutine.wrap(YMENNA_fake_script)()
+local function BLCX_fake_script() -- Close.CloseGuiButtonScript 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KRAQYFX_fake_script)()
-local function YSMVO_fake_script() -- Eforfly.7 
+coroutine.wrap(BLCX_fake_script)()
+local function ETKPV_fake_script() -- Eforfly.7 
 	local script = Instance.new('LocalScript', Eforfly)
 
 	function OnClicked() 
@@ -1080,8 +947,8 @@ local function YSMVO_fake_script() -- Eforfly.7
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(YSMVO_fake_script)()
-local function BKYB_fake_script() -- FC.8 
+coroutine.wrap(ETKPV_fake_script)()
+local function WUGK_fake_script() -- FC.8 
 	local script = Instance.new('LocalScript', FC)
 
 	function OnClicked()
@@ -1090,4 +957,4 @@ local function BKYB_fake_script() -- FC.8
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(BKYB_fake_script)()
+coroutine.wrap(WUGK_fake_script)()
