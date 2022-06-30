@@ -7,3 +7,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Eduardfabian21/RoHub/
 https://t.me/RoHub_Roblox
 # Update logs:
 V2: Refresh the gui + restore the old scripts
+
